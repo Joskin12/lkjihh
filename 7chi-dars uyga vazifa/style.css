@@ -1,0 +1,102 @@
+*{
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(43, 56, 68);
+    color: white;
+    height: 50px;
+
+}
+.div11{
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 20px 80px;
+
+}
+main{
+    background-color: rgb(32, 44, 54);
+}
+.mimg{
+    width: 15px;
+}
+.main1{
+    background-color:  rgb(43, 56, 68);
+    width: 360px;
+    height: 45px;
+    border-radius: 5px;
+    display: flex;
+    padding: 10px 30px;
+    text-align: center;
+    align-items: center;
+    color: white;
+
+}
+.main1 p{
+    font-size: 15px;
+}
+@media(max-width:610px){
+    .div11{
+        font-size: 10px;
+         padding: 10px 15px;
+    }
+}
+
+@media(max-width:610px){
+    .main1{
+        font-size: 8px;
+        padding: 8px 8px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        width: 200px;
+    }
+}
+@media(max-width:610px){
+    .main1 p{
+        font-size: 10px;
+    }
+}
+.main2{
+    padding: 20px 50px;
+}
+/* header tugadi */
+
+.cards{
+    height: 360px;
+    width: 267px;
+    background-color: rgb(43, 56, 68);
+    
+}
+.cardpp{
+    color: white;
+    padding: 20px 20px;
+}
+.oruvchidiv{
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+
+@media(max-width:610px){
+    .oruvchidiv{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+ 
+.oradiv{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
